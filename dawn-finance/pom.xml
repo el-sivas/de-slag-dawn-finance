@@ -9,4 +9,7 @@
   <artifactId>dawn-finance</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>dawn-finance-model</module>
+  </modules>
 </project>
