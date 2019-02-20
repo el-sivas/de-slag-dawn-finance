@@ -7,19 +7,19 @@
 		<artifactId>dawn-finance</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>dawn-finance-model</artifactId>
+	<artifactId>dawn-finance-logic</artifactId>
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>de-slag-dawn-root</groupId>
-			<artifactId>dawn-root-base</artifactId>
+			<groupId>de.slag.dawn.finance</groupId>
+			<artifactId>dawn-finance-model</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.javamoney</groupId>
-			<artifactId>moneta</artifactId>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
 		</dependency>
 	</dependencies>
 </project>

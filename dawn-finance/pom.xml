@@ -13,12 +13,23 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>dawn-finance-model</module>
+		<module>dawn-finance-logic</module>
+		<module>dawn-finance-data</module>
 	</modules>
 	<properties>
 		<de.slag.core.version>0.0.1-SNAPSHOT</de.slag.core.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>de.slag.dawn.finance</groupId>
+				<artifactId>dawn-finance-model</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+
+
+
 			<dependency>
 				<groupId>de-slag-dawn-core</groupId>
 				<artifactId>dawn-base-currency</artifactId>

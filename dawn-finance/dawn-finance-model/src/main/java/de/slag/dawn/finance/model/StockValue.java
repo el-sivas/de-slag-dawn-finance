@@ -1,8 +1,10 @@
 package de.slag.dawn.finance.model;
 
-import de.slag.dawn.base.utils.Labelable;
 
-public class StockValue implements Labelable {
+import de.slag.dawn.core.model.ModelBean;
+import de.slag.root.base.Labelable;
+
+public class StockValue extends ModelBean implements Labelable {
 
 	private String isin;
 
