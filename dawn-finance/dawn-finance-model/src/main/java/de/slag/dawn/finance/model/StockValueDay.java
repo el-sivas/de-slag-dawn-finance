@@ -4,7 +4,7 @@ import java.util.Date;
 
 import javax.money.MonetaryAmount;
 
-import de.slag.dawn.core.model.ModelBean;
+import de.slag.root.base.ModelBean;
 
 public class StockValueDay extends ModelBean {
 

@@ -21,5 +21,9 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>de-slag-dawn-core</groupId>
+			<artifactId>dawn-core-logic</artifactId>
+		</dependency>
 	</dependencies>
 </project>

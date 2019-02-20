@@ -1,8 +1,7 @@
 package de.slag.dawn.finance.model;
 
-
-import de.slag.dawn.core.model.ModelBean;
 import de.slag.root.base.Labelable;
+import de.slag.root.base.ModelBean;
 
 public class StockValue extends ModelBean implements Labelable {
 
