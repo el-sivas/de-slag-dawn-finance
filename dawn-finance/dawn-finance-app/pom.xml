@@ -7,20 +7,23 @@
 		<artifactId>dawn-finance</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>dawn-finance-data</artifactId>
-	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
-	</properties>
+	<artifactId>dawn-finance-app</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>de-slag-dawn-core</groupId>
-			<artifactId>dawn-core-data</artifactId>
+			<groupId>de.slag.dawn.finance</groupId>
+			<artifactId>dawn-finance-model</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>de.slag.dawn.finance</groupId>
 			<artifactId>dawn-finance-logic</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>de.slag.dawn.finance</groupId>
+			<artifactId>dawn-finance-logic</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.slag.dawn.finance</groupId>
+			<artifactId>dawn-finance-data</artifactId>
+		</dependency>
 	</dependencies>
 </project>
